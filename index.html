@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>index</title>
+</head>
+<style type="text/css">
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: 100% 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0% {
+		background-position: 0 0;
+	}
+	
+	100% {
+		background-position:840px 420px;
+	}
+}
+div{
+	height: 100px;
+	line-height: 100px;
+	color: #fff;
+	text-align: center;
+	font-family:  sans-serif;
+	font-size: 30px;
+	padding: 100px 0;
+	background: #333 url("./testimonials.png") repeat left top;
+	animation: animatedBackground 25s infinite linear;
+	-webkit-animation: animatedBackground 25s infinite linear;
+}
+
+</style>
+<body>
+	<div>
+		hello,我是林小宅
+	</div>
+
+</body>
+</html>
